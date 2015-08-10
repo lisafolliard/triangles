@@ -7,4 +7,9 @@ describe('String#triangles') do
     equilateral_triangle = Triangles.new(3,3,3)
     expect(equilateral_triangle.equilateral?()).to(eq(true))
   end
+
+  it("determines if two sides of triangle are equal") do
+    isosceles_triangle = Triangles.new(4,4,5)
+    expect(isosceles_triangle.isosceles?()).to(eq(true))
+  end
 end

@@ -14,4 +14,5 @@ get ('/triangles') do
   side3 = params.fetch('side3')
   @triangles = Triangles.new(side1, side2, side3)
   erb(:triangles)
+  
 end

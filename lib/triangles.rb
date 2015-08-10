@@ -7,7 +7,9 @@ class Triangles
 
 
   define_method(:equilateral?) do
-    @side1.eql?(@side2) && @side1.eql?(@side3)
+    if @side1.eql?(@side2) && @side1.eql?(@side3)
+      "The triangle is equilateral"
+    end
   end
 
   define_method(:isosceles?) do

@@ -5,7 +5,7 @@ require('triangles')
 describe('String#triangles') do
   it("determines if all triangle sides are equal") do
     equilateral_triangle = Triangles.new(3,3,3)
-    expect(equilateral_triangle.equilateral?()).to(eq(true))
+    expect(equilateral_triangle.equilateral?()).to(eq("The triangle is equilateral"))
   end
 
   it("determines if two sides of triangle are equal") do

@@ -5,7 +5,6 @@ class Triangles
     @side3 = side3
   end
 
-
   define_method(:equilateral?) do
     if @side1.eql?(@side2) && @side1.eql?(@side3)
       "The triangle is equilateral"

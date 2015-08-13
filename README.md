@@ -11,8 +11,8 @@ The app takes user input and calculates if an equilateral, isosceles or scalene 
 Setup
 
 git clone https://github.com/lisafolliard/triangles.git
-Run ruby app.rb
-Use localhost:4567
+In Terminal run ruby app.rb
+Navigate to localhost:4567
 
 Technologies Used
 
